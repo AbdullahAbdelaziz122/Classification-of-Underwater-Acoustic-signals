@@ -1,0 +1,12 @@
+{
+  "Background": 0,
+  "Beluga": 1,
+  "Dolphin": 2,
+  "Narwhal": 3,
+  "Seal": 4,
+  "Vessel": 5,
+  "Walrus": 6,
+  "Whale": 7,
+  "Submarine": 8,
+  "Torpedo": 9
+}

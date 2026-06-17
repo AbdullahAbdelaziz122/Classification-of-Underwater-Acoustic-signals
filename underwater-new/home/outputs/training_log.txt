@@ -1,0 +1,81 @@
+2026-06-17 07:53:06 | INFO | underwater_acoustic_cnn | Using device: mps
+2026-06-17 07:53:06 | INFO | underwater_acoustic_cnn | Effective batch size: 16
+2026-06-17 07:53:06 | INFO | underwater_acoustic_cnn | Starting training for 40 epochs
+2026-06-17 07:53:59 | INFO | underwater_acoustic_cnn | Epoch 001/040 | train_loss=0.9307 | train_acc=0.6584 | val_loss=0.7169 | val_acc=0.7657 | lr=0.001000
+2026-06-17 07:54:00 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 07:54:36 | INFO | underwater_acoustic_cnn | Epoch 002/040 | train_loss=0.7337 | train_acc=0.7136 | val_loss=0.6585 | val_acc=0.7840 | lr=0.001000
+2026-06-17 07:54:36 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 07:55:16 | INFO | underwater_acoustic_cnn | Epoch 003/040 | train_loss=0.6519 | train_acc=0.7559 | val_loss=0.7354 | val_acc=0.7314 | lr=0.001000
+2026-06-17 07:55:55 | INFO | underwater_acoustic_cnn | Epoch 004/040 | train_loss=0.5667 | train_acc=0.8037 | val_loss=0.4145 | val_acc=0.8411 | lr=0.001000
+2026-06-17 07:55:56 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 07:56:36 | INFO | underwater_acoustic_cnn | Epoch 005/040 | train_loss=0.4737 | train_acc=0.8286 | val_loss=0.3992 | val_acc=0.8457 | lr=0.001000
+2026-06-17 07:56:36 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 07:57:09 | INFO | underwater_acoustic_cnn | Epoch 006/040 | train_loss=0.4448 | train_acc=0.8403 | val_loss=0.3580 | val_acc=0.8800 | lr=0.001000
+2026-06-17 07:57:09 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 07:57:47 | INFO | underwater_acoustic_cnn | Epoch 007/040 | train_loss=0.4314 | train_acc=0.8478 | val_loss=0.4448 | val_acc=0.8343 | lr=0.001000
+2026-06-17 07:58:26 | INFO | underwater_acoustic_cnn | Epoch 008/040 | train_loss=0.3907 | train_acc=0.8584 | val_loss=0.6636 | val_acc=0.8034 | lr=0.001000
+2026-06-17 07:59:06 | INFO | underwater_acoustic_cnn | Epoch 009/040 | train_loss=0.3732 | train_acc=0.8658 | val_loss=0.3130 | val_acc=0.8800 | lr=0.001000
+2026-06-17 07:59:06 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 07:59:46 | INFO | underwater_acoustic_cnn | Epoch 010/040 | train_loss=0.3569 | train_acc=0.8681 | val_loss=0.3081 | val_acc=0.8766 | lr=0.001000
+2026-06-17 07:59:46 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:00:26 | INFO | underwater_acoustic_cnn | Epoch 011/040 | train_loss=0.4014 | train_acc=0.8635 | val_loss=0.4112 | val_acc=0.8389 | lr=0.001000
+2026-06-17 08:01:06 | INFO | underwater_acoustic_cnn | Epoch 012/040 | train_loss=0.3531 | train_acc=0.8773 | val_loss=0.2838 | val_acc=0.8960 | lr=0.001000
+2026-06-17 08:01:06 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:01:46 | INFO | underwater_acoustic_cnn | Epoch 013/040 | train_loss=0.3192 | train_acc=0.8913 | val_loss=0.2927 | val_acc=0.8903 | lr=0.001000
+2026-06-17 08:02:25 | INFO | underwater_acoustic_cnn | Epoch 014/040 | train_loss=0.3162 | train_acc=0.8896 | val_loss=0.2758 | val_acc=0.8880 | lr=0.001000
+2026-06-17 08:02:25 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:03:03 | INFO | underwater_acoustic_cnn | Epoch 015/040 | train_loss=0.2974 | train_acc=0.8927 | val_loss=0.2534 | val_acc=0.9063 | lr=0.001000
+2026-06-17 08:03:03 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:03:40 | INFO | underwater_acoustic_cnn | Epoch 016/040 | train_loss=0.3182 | train_acc=0.8970 | val_loss=0.2857 | val_acc=0.8823 | lr=0.001000
+2026-06-17 08:04:13 | INFO | underwater_acoustic_cnn | Epoch 017/040 | train_loss=0.2618 | train_acc=0.9122 | val_loss=0.2968 | val_acc=0.8937 | lr=0.001000
+2026-06-17 08:04:48 | INFO | underwater_acoustic_cnn | Epoch 018/040 | train_loss=0.2683 | train_acc=0.9104 | val_loss=0.3282 | val_acc=0.8823 | lr=0.000500
+2026-06-17 08:05:19 | INFO | underwater_acoustic_cnn | Epoch 019/040 | train_loss=0.2014 | train_acc=0.9308 | val_loss=0.1909 | val_acc=0.9291 | lr=0.000500
+2026-06-17 08:05:19 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:05:55 | INFO | underwater_acoustic_cnn | Epoch 020/040 | train_loss=0.1933 | train_acc=0.9353 | val_loss=0.1772 | val_acc=0.9326 | lr=0.000500
+2026-06-17 08:05:55 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:06:31 | INFO | underwater_acoustic_cnn | Epoch 021/040 | train_loss=0.1885 | train_acc=0.9382 | val_loss=0.1890 | val_acc=0.9269 | lr=0.000500
+2026-06-17 08:07:07 | INFO | underwater_acoustic_cnn | Epoch 022/040 | train_loss=0.1586 | train_acc=0.9468 | val_loss=0.1574 | val_acc=0.9463 | lr=0.000500
+2026-06-17 08:07:07 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:07:42 | INFO | underwater_acoustic_cnn | Epoch 023/040 | train_loss=0.1628 | train_acc=0.9402 | val_loss=0.1478 | val_acc=0.9474 | lr=0.000500
+2026-06-17 08:07:42 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:08:13 | INFO | underwater_acoustic_cnn | Epoch 024/040 | train_loss=0.1625 | train_acc=0.9456 | val_loss=0.1392 | val_acc=0.9531 | lr=0.000500
+2026-06-17 08:08:13 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:08:49 | INFO | underwater_acoustic_cnn | Epoch 025/040 | train_loss=0.1470 | train_acc=0.9462 | val_loss=0.1916 | val_acc=0.9486 | lr=0.000500
+2026-06-17 08:09:29 | INFO | underwater_acoustic_cnn | Epoch 026/040 | train_loss=0.1288 | train_acc=0.9574 | val_loss=0.1385 | val_acc=0.9577 | lr=0.000500
+2026-06-17 08:09:29 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:10:08 | INFO | underwater_acoustic_cnn | Epoch 027/040 | train_loss=0.1249 | train_acc=0.9565 | val_loss=0.1327 | val_acc=0.9634 | lr=0.000500
+2026-06-17 08:10:08 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:10:45 | INFO | underwater_acoustic_cnn | Epoch 028/040 | train_loss=0.1097 | train_acc=0.9631 | val_loss=0.1783 | val_acc=0.9531 | lr=0.000500
+2026-06-17 08:11:22 | INFO | underwater_acoustic_cnn | Epoch 029/040 | train_loss=0.1303 | train_acc=0.9562 | val_loss=0.1339 | val_acc=0.9554 | lr=0.000500
+2026-06-17 08:11:58 | INFO | underwater_acoustic_cnn | Epoch 030/040 | train_loss=0.1110 | train_acc=0.9645 | val_loss=0.1563 | val_acc=0.9440 | lr=0.000250
+2026-06-17 08:12:31 | INFO | underwater_acoustic_cnn | Epoch 031/040 | train_loss=0.0765 | train_acc=0.9757 | val_loss=0.1223 | val_acc=0.9623 | lr=0.000250
+2026-06-17 08:12:31 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:13:06 | INFO | underwater_acoustic_cnn | Epoch 032/040 | train_loss=0.0732 | train_acc=0.9774 | val_loss=0.1281 | val_acc=0.9634 | lr=0.000250
+2026-06-17 08:13:36 | INFO | underwater_acoustic_cnn | Epoch 033/040 | train_loss=0.0609 | train_acc=0.9831 | val_loss=0.1369 | val_acc=0.9634 | lr=0.000250
+2026-06-17 08:14:06 | INFO | underwater_acoustic_cnn | Epoch 034/040 | train_loss=0.0710 | train_acc=0.9748 | val_loss=0.1212 | val_acc=0.9600 | lr=0.000250
+2026-06-17 08:14:06 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:14:36 | INFO | underwater_acoustic_cnn | Epoch 035/040 | train_loss=0.0541 | train_acc=0.9791 | val_loss=0.1029 | val_acc=0.9669 | lr=0.000250
+2026-06-17 08:14:36 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:15:16 | INFO | underwater_acoustic_cnn | Epoch 036/040 | train_loss=0.0588 | train_acc=0.9791 | val_loss=0.1147 | val_acc=0.9646 | lr=0.000250
+2026-06-17 08:15:54 | INFO | underwater_acoustic_cnn | Epoch 037/040 | train_loss=0.0553 | train_acc=0.9803 | val_loss=0.1007 | val_acc=0.9703 | lr=0.000250
+2026-06-17 08:15:54 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:16:34 | INFO | underwater_acoustic_cnn | Epoch 038/040 | train_loss=0.0613 | train_acc=0.9791 | val_loss=0.1909 | val_acc=0.9440 | lr=0.000250
+2026-06-17 08:17:08 | INFO | underwater_acoustic_cnn | Epoch 039/040 | train_loss=0.0466 | train_acc=0.9857 | val_loss=0.0994 | val_acc=0.9669 | lr=0.000250
+2026-06-17 08:17:08 | INFO | underwater_acoustic_cnn | Saved new best checkpoint to outputs/best_model.pth
+2026-06-17 08:17:42 | INFO | underwater_acoustic_cnn | Epoch 040/040 | train_loss=0.0358 | train_acc=0.9874 | val_loss=0.1460 | val_acc=0.9566 | lr=0.000250
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Evaluation accuracy: 0.9669
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Macro precision: 0.8553
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Macro recall: 0.8306
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Macro F1-score: 0.8406
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Background | accuracy=1.0000 | precision=0.9184 | recall=1.0000 | f1=0.9574 | support=45
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Beluga | accuracy=0.0000 | precision=0.0000 | recall=0.0000 | f1=0.0000 | support=0
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Dolphin | accuracy=0.9290 | precision=0.9664 | recall=0.9290 | f1=0.9474 | support=155
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Narwhal | accuracy=0.8000 | precision=0.8889 | recall=0.8000 | f1=0.8421 | support=10
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Seal | accuracy=0.8966 | precision=0.8966 | recall=0.8966 | f1=0.8966 | support=29
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Vessel | accuracy=0.9925 | precision=1.0000 | recall=0.9925 | f1=0.9962 | support=400
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Walrus | accuracy=0.7500 | precision=1.0000 | recall=0.7500 | f1=0.8571 | support=8
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Whale | accuracy=0.9375 | precision=0.8824 | recall=0.9375 | f1=0.9091 | support=128
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Submarine | accuracy=1.0000 | precision=1.0000 | recall=1.0000 | f1=1.0000 | support=50
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Class=Torpedo | accuracy=1.0000 | precision=1.0000 | recall=1.0000 | f1=1.0000 | support=50
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Training complete. Best validation loss: 0.0994
+2026-06-17 08:17:47 | INFO | underwater_acoustic_cnn | Final validation accuracy: 0.9669
