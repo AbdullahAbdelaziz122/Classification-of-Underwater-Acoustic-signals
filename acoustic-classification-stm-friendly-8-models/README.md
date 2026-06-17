@@ -1,7 +1,3 @@
-Here's the updated README with the new results table inserted. All other content remains unchanged.
-
----
-
 # Underwater Acoustic Classifier 🔬🌊
 
 A deep learning pipeline for classifying underwater acoustic signals into marine life families and threat classes (Torpedo, Submarine). Designed for research and edge deployment on Raspberry Pi 4B.
