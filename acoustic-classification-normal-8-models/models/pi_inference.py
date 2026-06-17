@@ -23,7 +23,7 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torchaudio
 import torchaudio.transforms as T
-
+import soundfile as sf
 warnings.filterwarnings("ignore")
 
 
@@ -346,17 +346,30 @@ def get_transforms():
 
 
 def preprocess(audio_path: str) -> torch.Tensor:
-    sig, sr = torchaudio.load(audio_path)
+    # Read the audio file directly into a float32 numpy array
+    data, sr = sf.read(audio_path, dtype="float32")
+    
+    # Convert numpy array to PyTorch Tensor and ensure shape is (channels, time)
+    if data.ndim == 1:
+        sig = torch.from_numpy(data).unsqueeze(0)
+    else:
+        sig = torch.from_numpy(data).t()
+
+    # Resample if necessary
     if sr != CFG.sample_rate:
         sig = T.Resample(sr, CFG.sample_rate)(sig)
+        
+    # Convert to mono if multi-channel
     if sig.shape[0] > 1:
         sig = sig.mean(dim=0, keepdim=True)
+        
+    # Pad or trim to the target duration
     n = CFG.max_samples
     sig = sig[:, :n] if sig.shape[1] >= n else F.pad(sig, (0, n - sig.shape[1]))
+    
+    # Generate log-mel spectrogram
     mel, db = get_transforms()
-    return db(mel(sig)).unsqueeze(0)  # (1, 1, n_mels, T)
-
-
+    return db(mel(sig)).unsqueeze(0)  # Shape: (1, 1, n_mels, T)
 # ─────────────────────────────────────────────────────────────
 # Inference
 # ─────────────────────────────────────────────────────────────
